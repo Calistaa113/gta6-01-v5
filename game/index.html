@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VISTAMAR v3: Golden Hour</title>
+<link rel="stylesheet" href="style.css">
+<script type="importmap">{ "imports": { "three": "./vendor/three.module.min.js" } }</script>
+</head>
+<body>
+<canvas id="view"></canvas>
+<div id="hud" class="hidden">
+  <div id="objective"></div>
+  <div id="radio"><b id="station">NEON FM 98.3</b><span id="song">Midnight Causeway - The Palmettes</span></div>
+  <div id="status"><div id="stars"></div><div id="money">$0</div><div id="weapon">FISTS</div><div class="bar"><i id="health"></i></div></div>
+  <div id="speedo"><small id="carname">ON FOOT</small><b id="speed">0</b><span>KM/H</span></div>
+  <div id="minimap"><canvas id="mini" width="200" height="200"></canvas><span id="district">OCEAN DRIVE</span></div>
+  <div id="dialogue"></div>
+  <div id="crosshair">+</div>
+</div>
+<div id="title">
+  <h1>VISTAMAR</h1>
+  <h2>GOLDEN HOUR</h2>
+  <p>An original open-world crime story on the sunset coast.</p>
+  <button id="play">PRESS ENTER TO PLAY</button>
+  <small>WASD move / drive &middot; F enter or steal car &middot; Mouse aim &middot; Click shoot &middot; 1-4 weapons &middot; Shift sprint / nitro &middot; M mission</small>
+</div>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

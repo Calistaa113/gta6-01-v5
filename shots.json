@@ -1,0 +1,6 @@
+[
+  { "name": "1-cover-ocean-drive-chase.jpg", "query": "?shot=cover&seed=1" },
+  { "name": "2-port-varela-shootout.jpg", "query": "?shot=shootout&seed=1" },
+  { "name": "3-neon-strip-roadblock.jpg", "query": "?shot=roadblock&seed=1" },
+  { "name": "4-title-golden-hour.jpg", "query": "?shot=title&seed=1" }
+]
